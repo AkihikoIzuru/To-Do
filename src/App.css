@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  margin-top: 3rem;
+  padding: 3rem;
+  border-radius: 16px;
+}
+
+.TodoForm {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid rgb(88, 88, 88);
+  padding: 0.5rem 1rem;
+  width: 300px;
+  color: white;
+  border-radius: 6px;
+}
+
+.todo-input-edit {
+  outline: none;
+  background: none;
+  border: 1px solid rgb(88, 88, 88);
+  padding: 0.5rem 1rem;
+  width: 261px;
+  color: white;
+  border-radius: 6px;
+}
+
+.todo-input-edit::placeholder {
+  color: rgb(88, 88, 88);
+}
+
+.todo-input::placeholder {
+  color: rgb(88, 88, 88);
+}
+
+.todo-btn {
+  background: rgb(88, 88, 88);
+  color: white;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(88, 88, 88);
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+.fa-task {
+  color: white;
+}
+
+.icons {
+  display: flex;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+  word-wrap: break-word;
+
+}
+.todo-warp {
+  word-wrap: break-word;
+  width: 253px;
+}
+
+.completed {
+  color: rgb(143, 143, 143);
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+.about {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.text {
+    text-align: center;
+}
